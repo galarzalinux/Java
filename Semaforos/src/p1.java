@@ -9,7 +9,7 @@ public class p1 extends Thread {
 
 	public void run() {
 		try{
-			sleep((int) Math.round(1000*Math.random() - 0.4));
+			sleep((int) Math.round(1000*Math.random() - 0.5));
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
