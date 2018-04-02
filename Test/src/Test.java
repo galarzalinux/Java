@@ -21,7 +21,7 @@ public class Test {
 	        }
 	        return max-min;
 	    }
-	 
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] a=new int[5];
@@ -31,37 +31,37 @@ public class Test {
 		a[3]=8;
 		a[4]=1;
 		System.out.println("res "+maxDifference(a)); 
-		
+
 	}
 
 }
-*/
+ */
 
 import java.util.*;
 
 public class Test {
-   
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        String temp="";
-        temp=Integer.toBinaryString(n);
-        System.out.println(temp);
-        byte[] barray=new byte[temp.length()];
-        barray=temp.getBytes();
-        int i=0,max=0,min=0;
-        while(i<temp.length()){
-            if(barray[i]!=48){
-                min++;                
-            }else{
-                min=0;
-            }
-            if(min>max){
-                  max=min;
-              }
-            i++;
-        }
-        System.out.println(""+max);
-        in.close();
-    }
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt();
+		String temp="";
+		temp=Integer.toBinaryString(n);
+		System.out.println(temp);
+		byte[] barray=new byte[temp.length()];
+		barray=temp.getBytes();
+		int i=0,max=0,min=0;
+		while(i<temp.length()){
+			if(barray[i]!=48){
+				min++;                
+			}else{
+				min=0;
+			}
+			if(min>max){
+				max=min;
+			}
+			i++;
+		}
+		System.out.println(""+max);
+		in.close();
+	}
 }
