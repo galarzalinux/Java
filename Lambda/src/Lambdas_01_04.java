@@ -12,7 +12,7 @@ public class Lambdas_01_04 {
 		System.out.println(add.calc(3,2));
 		System.out.println(difference.calc(5,10));
 		System.out.println(divide.calc(15, 3));
-		System.out.println(multiply.calc(4, 5));
+		System.out.println(multiply.calc(5, 5));
 		
 		Calculate mod=new Calculate() {
 			@Override
