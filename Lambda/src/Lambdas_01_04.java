@@ -22,7 +22,6 @@ public class Lambdas_01_04 {
 		};
 
 		System.out.println(mod.calc(10, 3));
-
 	}
 
 	@FunctionalInterface
