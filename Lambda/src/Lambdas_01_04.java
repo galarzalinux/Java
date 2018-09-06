@@ -4,7 +4,7 @@ public class Lambdas_01_04 {
 		//example of passing multiple values to a method using lambda 
 		//notice that I do NOT have to specify the data type of a and b
 		
-		Calculate add =(a,b)-> a + b;
+		Calculate add = (a,b)-> a + b;
 		Calculate difference = (a,b) -> Math.abs(a-b);
 		Calculate divide =(a,b)-> (b != 0 ? a/b : 0);
 		Calculate multiply=(a,b)->Math.multiplyExact(a, b);
