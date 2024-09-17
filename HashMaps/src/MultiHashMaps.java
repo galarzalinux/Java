@@ -99,7 +99,7 @@ public class MultiHashMaps {
 						miMultiMapa.put(key, newvalue);
 						//Reintroduce los valores para la Llave
 					}else{
-                                    System.out.println("Error ese valor no existe");
+						System.out.println("Error ese valor no existe");
 					}
 				}else{
 					System.out.println("No existe esa Llave");
@@ -129,9 +129,9 @@ public class MultiHashMaps {
 				break;
 		}
 	}
-	
+
 	public void edita(int opc){
-		
+
 	}
 
 	public static void main(String[] args) {
